@@ -2,6 +2,7 @@
 from PIL import ImageEnhance
 from PIL import Image
 import numpy as np
+from rgb2hsv_cv2 import contrast
 
 enhancer1 = ImageEnhance.Sharpness
 enhancer2 = ImageEnhance.Color
